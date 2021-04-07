@@ -33,12 +33,17 @@ h1{
     outline: none;
     font-size: 25px;
     vertical-align: middle;
+    border-radius: 10px;
 }
 #addToDo{
     height: 50px;
     width: 50px;
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 40px;
+    border-radius: 15px;
+    outline: none;
+    color:dodgerblue;
+    font-weight: bolder;
 }
 .to-dos{
     margin-top: 25px;

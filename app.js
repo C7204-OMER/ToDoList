@@ -6,6 +6,7 @@ let result = document.getElementById("result");
 let trush = document.getElementById("cop");
 btn1.addEventListener("click", add);
 btn2.addEventListener("click", ok);
+btn3.addEventListener("click", del);
 function add() {
   let x = text.value;
   let y = trush.value;
@@ -16,4 +17,8 @@ function add() {
 }
 function ok(){
     result.style.textDecoration = "line-through";
+}
+function del(){
+    let z = "";
+    result.textContent = "";
 }

@@ -7,18 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div id="head">
-            <input id="inpt" type="text">
-            <button id="btn1">+</button>
-        </div>
-        <div id="notes">
-                <button id="btn2"><img id="tik" src="./tik.jpg" alt="tik"></button>   
-                <p id="result"></p>
-                <button id="btn3"><img id="cop" src="./cop_kutusu.png" alt="cop"></button>
+    <h1>My To Do List</h1>
+    <div class="container">
+        <input id="inputField" type="text" placeholder = "Enter your task!">
+        <button id="addToDo">+</button>
+        <h3 id="h3" onmouseover= "mouseOver()" onmouseout="mouseOut()">Click to cross text, Double click to remove text</h3>
+        <div class = "to-dos" id = "toDoContainer">
+            <div class="to-dos-screen" id="letter"></div>
         </div>
     </div>
-        <!-- <img id="artı" src="./art.jpg" alt="artı"> -->
     <script src="app.js"></script>
 </body>
 </html>

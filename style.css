@@ -1,10 +1,70 @@
-*{
+body{
+    width:22%;
+    margin: 0 auto;
+    font-family : Arial, Helvetica, sans-serif;
+    position:relative;
+    top:10%;
+    background-image: url("./to-do-list-background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    color:darkslategrey;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+#h3{
+    opacity:1;
+
+}
+
+.container{
+    width:360px;
+}
+#inputField {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+#addToDo{
+    height: 50px;
+    width: 50px;
+    border:1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+.to-dos{
+    margin-top: 25px;
+    text-align:left;
+    font-size: 30px;
+    font-weight: 700;
+    cursor:pointer;
+    color:teal;
+    background-color:gainsboro;
+    /* color:white; */
+}
+.to-dos-screen{
+    color:brown;
+}
+.paragraph{
+    margin:0;
+    cursor:pointer;
+    font-size:20px;
+}
+
+
+
+/* *{
     margin:0;
     padding:0;
     font-family: Arial, "Lato", sans-serif;
-    font-weight: bold;
+    font-weight: bold; */
     /* background-image: url("./to-do-list-background.jpg"); */
-}
+/* }
 #head{
     width:500px;
     height:50px;
@@ -25,16 +85,17 @@ input{
 }
 #btn1{
     width:40px;
+    height:54px;
     font-size:30px;
     font-weight:900;
     color:midnightblue;
     background-color:darkcyan;
     cursor:pointer;
 }
-#btn1:hover{}
+#btn1:hover{} */
 
 /* img#artı:hover, img#artı:active {opacity:1}; */
-#result{
+/* #result{
     justify-content: center;
     text-align: center;
     font-size:20px;
@@ -59,11 +120,11 @@ button{
     width:30px;
     height:30px;
     /* border:1px solid black; */
-    cursor:pointer;
-}
-#tik{
+    /* cursor:pointer;
+} */
+/*#tik{
     width:30px;
-    height: 28px;
+    height: 28px; */
     /* border:1px solid black; */
-    cursor:pointer;
-}
+    /* cursor:pointer;
+} */
